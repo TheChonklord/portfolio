@@ -1,6 +1,52 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
 header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: auto;
     font-weight: bolder;
     background-color: goldenrod;
     color: black;
 }
 
+h1 {
+    font-size: 200%;
+}
+h2, h3 {
+    font-size: 250%;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+    list-style-type: none;
+}
+
+.aboutMe p {
+    display: flex;
+    justify-content: center;
+
+}
+
+.firstProject {
+    display: flex;
+    justify-content: center;
+    border: solid;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    
+    
+    background-color: goldenrod;
+    color: black;
+}
+
+
+
+/* when header nav links clicked it scrolls to that section */
+/* responsive viewport that adapts to common viewport sizes */ 
